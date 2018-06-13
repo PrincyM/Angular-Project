@@ -16,7 +16,7 @@ export class TeamMemberComponent implements OnInit {
 
   ngOnInit() {
 
-    this.teamMemberService.getTeamMembers(1).subscribe( members => this.members = this.members);
+    this.teamMemberService.getTeamMembers().subscribe( results => this.members = results); 
 
   }
 

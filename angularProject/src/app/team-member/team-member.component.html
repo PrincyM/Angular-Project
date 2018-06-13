@@ -1,14 +1,12 @@
-<p>
-  team member works!
-</p>
 <div *ngIf="members">
-    <div *ngFor="let m of members">
+    <div *ngFor="let m of members"> 
+       <!-- members what we define in the component class -->
         <h2>Team Member: {{ m.id }}</h2> 
         <h3>Name: {{ m.name}}</h3>
-        <p>Role: </p>
-        <p>Portfolio: </p>
-        <p>Bio: </p>
-        <p>Birthday: </p>
+        <p>Role: {{ m.role }} </p>
+        <p>Portfolio: {{ m.portfolio }}</p>
+        <p>Bio: {{ m.bio }} </p>
+        <p>Birthday: {{ m.birthday }} </p>
         <p></p>
      </div>
 </div>
