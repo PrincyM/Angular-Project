@@ -29,21 +29,9 @@ export class TeamMemberService {
      }
   ];
 
-  getTeamMembers(teamMembers?: TeamMember): Observable<TeamMember[]> { // getTeamMembers() here right now returns all of the results
+  getTeamMembers(memberId?: number): Observable<TeamMember[]> { // getTeamMembers() here right now returns all of the results  
 
-    if(teamMembers){
-      let results: TeamMember[] = []; 
-      
-      // for(let p of this.teamMembers) {    
-      //   if(person.firstName.toLowerCase() === p.firstName.toLowerCase()) {
-      //        results.push(p);
-      //   }
-        
-      // }
-
-      return of(results);
-    }
-     //return of(this.people); // something to do with observable class. Research more
+      return of(this.teamMembers);
    }
 
   constructor() { }
