@@ -1,0 +1,9 @@
+<div *ngIf="projects">
+  <ul *ngFor="let pr of projects">
+    <li>{{ pr.id }}</li>
+    <li>{{ pr.name }}</li>
+    <li>{{ pr.description }}</li>
+    <li>{{ pr.startDate }}</li>
+    <li>{{ pr.completed }}</li>
+  </ul>
+</div>
