@@ -1,14 +1,19 @@
-<div *ngIf="members">
-    <div *ngFor="let m of members"> 
-       <!-- members what we define in the component class -->
-        <h2>Team Member: {{ m.id }}</h2> 
-        <h3>Name: {{ m.name}}</h3>
-        <p>Role: {{ m.role }} </p>
-        <p>Portfolio: {{ m.portfolio }}</p>
-        <p>Bio: {{ m.bio }} </p>
-        <p>Birthday: {{ m.birthday }} </p>
-        <p></p>
-     </div>
-</div>
-
+<div class="card-deck">
+        <div class="card" *ngIf="members" style="width: 18rem;">
+            <div *ngFor="let m of members">
+                        <img class="card-img-top rounded" id="profileImg" src="{{ m.profileImage }}" alt="Card image cap">
+                        <div class="card-body">
+                                <h5 class="card-title">{{ m.name}}</h5>
+                                <p class="card-text">{{ m.bio }}</p>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Role: {{ m.role }}</li>
+                                <li class="list-group-item">Birthday: {{ m.birthday }} </li>
+                              </ul>
+                              <div class="card-body">
+                                <a href="{{ m.portfolio }}" target="_blank"class="btn btn-outline-info" id="portfolio-btn">Visit my portfolio </a>
+                              </div>
+            </div>  
+        </div>
+      </div>
 

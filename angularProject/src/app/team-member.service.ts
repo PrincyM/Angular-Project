@@ -15,7 +15,8 @@ export class TeamMemberService {
        portfolio: 'http://www.princymascarenhas.com',
        bio: 'Love for design, content curation through my blog & website development',
        birthday: new Date('3-30-1992'),
-       isWorkingStatus: false
+       isWorkingStatus: false,
+       profileImage: './assets/images/PrincyMascarenhas.JPG'
      },
 
      {
@@ -25,7 +26,8 @@ export class TeamMemberService {
       portfolio: 'http://www.emreji.com',
       bio: 'Hi, I am a brand new web developer who loves to build web applications. I also sing when I am not building websites',
       birthday: new Date('1-07-1992'),
-      isWorkingStatus: false
+      isWorkingStatus: false,
+      profileImage: './assets/images/ElizabethReji.jpg'
      }
   ];
 

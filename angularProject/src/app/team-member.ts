@@ -6,4 +6,5 @@ export class TeamMember {
     bio: string;
     birthday: Date;
     isWorkingStatus: boolean;
+    profileImage: string;
 }

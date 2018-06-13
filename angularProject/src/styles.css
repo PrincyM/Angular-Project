@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+body { 
+    background-color: #79c7c5;
+}
+
+#inner-container {
+    margin: 0 auto;
+    width: 1000px;
+    height: 3000px;
+    background-color: #edf2f4;
+}
