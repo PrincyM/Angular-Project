@@ -1,7 +1,7 @@
 # Angular-Project
 Aim: This repo is to track our progress for Humber Angular Project that includes building a single page application (SPA) with RESTful APIs
 
-Description: Team Portfolio is a single page application that includes profile information and projects done by the team of developers who built this application. It is built using Angular 2 with Bootstrap to make it responsive. 
+Description: Team Portfolio is a single page application that includes profile information and projects done by the team of developers who built this application. It is built using Angular 2 with Bootstrap. 
 
 ## Princy: 
 
