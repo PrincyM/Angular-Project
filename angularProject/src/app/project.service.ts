@@ -34,6 +34,33 @@ export class ProjectService {
       endDate: new Date('1-10-2017'), 
       completed: true,
       imageUrl: 'assets/images/hospital.png'
+    },
+    {
+      id: 4, 
+      name: 'Comrade Cafe', 
+      description: 'A restaurant website built with HTML5, CSS3, jQuery based on a comrade theme', 
+      startDate: new Date('1-10-2017'), 
+      endDate: new Date('1-10-2017'), 
+      completed: true,
+      imageUrl: 'assets/images/comrade.png'
+    },
+    {
+      id: 5, 
+      name: 'CSS Animation Project', 
+      description: 'Beethoven CSS animation that uses webkit @keyframes and created a piano using CSS.', 
+      startDate: new Date('1-10-2017'), 
+      endDate: new Date('1-10-2017'), 
+      completed: true,
+      imageUrl: 'assets/images/animation.png'
+    },
+    {
+      id: 6, 
+      name: 'Portfolio website', 
+      description: 'Built it as a CMS (here, Wordpress) that could help update content on my site easier', 
+      startDate: new Date('1-10-2017'), 
+      endDate: new Date('1-10-2017'), 
+      completed: true,
+      imageUrl: 'assets/images/portfolio.png'
     }
   ];
 
