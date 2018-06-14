@@ -1,5 +1,7 @@
 .card-deck {
     width: 40%;
+    margin: 0 auto;
+    /* margin-right: 0; */
 }
 
 #profileImg {
@@ -11,6 +13,3 @@
     color: #2b2d42;
 }
 
-#profileCard {
-    display: inline;
-}

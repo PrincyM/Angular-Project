@@ -1,19 +1,20 @@
+<h5 class="text-center">Team Members</h5>
 <div class="card-deck">
-        <div class="card" *ngIf="members" style="width: 18rem;">
-            <div id="profileCard" *ngFor="let m of members">
+        <div class="card" *ngIf="members">
+            <div class="profile" *ngFor="let m of members">
                         <img class="card-img-top rounded" id="profileImg" src="{{ m.profileImage }}" alt="Card image cap">
                         <div class="card-body">
                                 <h5 class="card-title">{{ m.name}}</h5>
-                                <p class="card-text">{{ m.bio }}</p>
+                                <p class="card-text"> <i class="fas fa-address-card"></i> {{ m.bio }}</p>
                         </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Role: {{ m.role }}</li>
-                                <li class="list-group-item">Birthday: {{ m.birthday | date:'fullDate' }} </li>
+                                <li class="list-group-item"> <i class="fas fa-code"></i> Role: {{ m.role }}</li>
+                                <li class="list-group-item"> <i class="fas fa-calendar-alt"></i> Birthday: {{ m.birthday | date:'fullDate' }} </li>
                             </ul>
                         <div class="card-body">
-                                <a href="{{ m.portfolio }}" target="_blank"class="btn btn-outline-info" id="portfolio-btn">Visit my portfolio </a>
+                                <a href="{{ m.portfolio }}" target="_blank"class="btn btn-outline-info" id="portfolio-btn"> <i class="fas fa-file-alt"></i> Visit my portfolio </a>
                         </div>
-            </div>  
+            </div>               
         </div>
-      </div>
+</div>
 

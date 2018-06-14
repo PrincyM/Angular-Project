@@ -4,11 +4,9 @@
 
 body { 
     background-color: #79c7c5;
-    /* font-family: 'Shadows Into Light', cursive; */
 }
 
-h1, h2, h3, h5, a {
-    /* font-family: 'Shadows Into Light', cursive; */
+h1, h2, h3, h4, h5, a {
     font-family: 'Rock Salt', sans-serif;
 
 
