@@ -3,10 +3,14 @@
 }
 
 #profileImg {
-    width: 365px;
-    height: 500px;
+    width: 350px;
+    height: 460px;
 }
 
 #portfolio-btn {
     color: #2b2d42;
+}
+
+#profileCard {
+    display: inline;
 }

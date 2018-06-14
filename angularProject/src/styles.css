@@ -1,6 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
 body { 
     background-color: #79c7c5;
+    /* font-family: 'Shadows Into Light', cursive; */
+}
+
+h1, h2, h3, h5, a {
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-family: 'Rock Salt', sans-serif;
+
+
 }
 
 #inner-container {

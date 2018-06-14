@@ -1,6 +1,6 @@
 <div class="card-deck">
         <div class="card" *ngIf="members" style="width: 18rem;">
-            <div *ngFor="let m of members">
+            <div id="profileCard" *ngFor="let m of members">
                         <img class="card-img-top rounded" id="profileImg" src="{{ m.profileImage }}" alt="Card image cap">
                         <div class="card-body">
                                 <h5 class="card-title">{{ m.name}}</h5>
@@ -8,7 +8,7 @@
                         </div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">Role: {{ m.role }}</li>
-                                <li class="list-group-item">Birthday: {{ m.birthday }} </li>
+                                <li class="list-group-item">Birthday: {{ m.birthday | date:'fullDate' }} </li>
                             </ul>
                         <div class="card-body">
                                 <a href="{{ m.portfolio }}" target="_blank"class="btn btn-outline-info" id="portfolio-btn">Visit my portfolio </a>
