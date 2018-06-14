@@ -5,4 +5,5 @@ export class Project {
     startDate: Date;
     endDate: Date;
     completed: boolean;
+    imageUrl: string; 
 }

@@ -6,6 +6,7 @@ body {
 #inner-container {
     margin: 0 auto;
     width: 1000px;
-    height: 3000px;
+    height: 100%;
+    padding: 20px;
     background-color: #edf2f4;
 }

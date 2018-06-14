@@ -1,0 +1,36 @@
+h2 {
+    margin: 5%;
+    text-align: center;
+}
+
+.projects-list {
+    text-align: center;
+    width: 100%;
+}
+
+.projects {
+    margin: 0;
+    padding: 0;
+}
+
+.projects li {
+    list-style: none;
+}
+
+.project{
+    display: inline-block;
+    width: 30%;
+}
+
+.project ul {
+    padding: 0;
+    margin: 5px;
+}
+
+.project-name {
+    font-weight: bold;
+}
+
+.project img {
+    width: 250px;
+}

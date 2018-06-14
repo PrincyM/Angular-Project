@@ -14,7 +14,8 @@ export class ProjectService {
       description: 'A networking web application for students, companies and teachers using PHP and MySQL database', 
       startDate: new Date('1-10-2017'), 
       endDate: new Date('1-10-2017'), 
-      completed: true
+      completed: true,
+      imageUrl: 'assets/images/netboost.png'
     },
     {
       id: 2, 
@@ -22,7 +23,8 @@ export class ProjectService {
       description: 'Calendar app pulling events from the Google calendar using PHP and Google API', 
       startDate: new Date('1-10-2017'), 
       endDate: new Date('1-10-2017'), 
-      completed: true
+      completed: true,
+      imageUrl: 'assets/images/calendar.png'
     },
     {
       id: 3, 
@@ -30,7 +32,8 @@ export class ProjectService {
       description: 'Hospital Content Managaement System project using ASP.NET MVC and MSSQL database', 
       startDate: new Date('1-10-2017'), 
       endDate: new Date('1-10-2017'), 
-      completed: true
+      completed: true,
+      imageUrl: 'assets/images/hospital.png'
     }
   ];
 

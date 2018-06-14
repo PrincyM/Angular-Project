@@ -1,9 +1,12 @@
-<div *ngIf="projects">
-  <ul *ngFor="let pr of projects">
-    <li>{{ pr.id }}</li>
-    <li>{{ pr.name }}</li>
-    <li>{{ pr.description }}</li>
-    <li>{{ pr.startDate }}</li>
-    <li>{{ pr.completed }}</li>
+<h2>Projects</h2>
+<div *ngIf="projects" class="projects-list">
+  <ul  class="projects">
+    <li *ngFor="let pr of projects" class="project">
+      <ul>
+        <img src="{{pr.imageUrl}}">
+        <li class="project-name">{{ pr.name }}</li>
+        <li>{{ pr.description }}</li>
+      </ul>
+    </li>
   </ul>
 </div>
